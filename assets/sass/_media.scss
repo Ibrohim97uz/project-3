@@ -1,0 +1,146 @@
+@media (max-width: 1318px) {
+  .menues .menu_inside .menu_wrapper .menu div .dotted {
+    display: none;
+  }
+}
+@media (max-width: 1164px) {
+  .showcase .showcase_inside div ul li {
+    display: block;
+  }
+  .showcase .showcase_inside div ul {
+    display: block;
+  }
+  .team .team_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gallery .gallery_inside .images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .showcase .showcase_inside {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .showcase .showcase_inside img {
+    grid-column: 1 / span 2;
+  }
+  .subscribe .subscribe_text form input[type="text"] {
+    width: 100%;
+    display: block;
+  }
+  .subscribe .subscribe_text form input[type="submit"] {
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+  }
+  .last_cards .last_cards_inside {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 1000px) {
+  .deliwery .deliwery_inside {
+    flex-direction: column;
+    align-items: center;
+  }
+  .deliwery .deliwery_inside .deliwery_right {
+    text-align: left;
+  }
+  .combo .combo_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  nav .nav_inside .nav-list {
+    display: none;
+  }
+  .burger_menu {
+    display: flex;
+  }
+  .faq .faq_inside .faq_text {
+    width: 100%;
+  }
+  .message .message_container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .message .message_container form input[type="text"] {
+    width: 100%;
+  }
+  .message .message_container form input[type="email"] {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media (max-width: 800px) {
+  .combo .combo_cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .deals .deals_inside .deals_cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .menues .menu_inside .menu_wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .gallery .gallery_inside .images {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .team .team_cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .subscribe .subscribe_inside {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-items: center;
+  }
+  .subscribe .subscribe_text {
+    margin-top: 20px;
+    grid-column: 1 / span 1;
+  }
+  .last_cards .last_cards_inside {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+  footer .footer_inside {
+    flex-direction: column;
+    height: 200px;
+  }
+  .circle {
+    display: none;
+  }
+}
+@media (max-width: 533px) {
+  footer .footer_inside .footer_left ul {
+    text-align: center;
+    li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+}
+@media (max-width: 400px) {
+  %title {
+    font-family: "Barlow", sans-serif;
+    font-size: 2rem;
+    line-height: 1.1;
+    font-weight: 900;
+    color: #232323;
+    text-align: center;
+    width: 100%;
+  }
+  %subtitle {
+    color: #e7272d;
+    font-family: "Permanent Marker", cursive;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    font-weight: 500;
+    text-align: center;
+  }
+  .showcase .showcase_inside div h1 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 900;
+  }
+  .deliwery .deliwery_inside .deliwery_right {
+    width: 100%;
+  }
+  .deliwery .deliwery_inside .deliwery_left {
+    width: 100%;
+  }
+}
